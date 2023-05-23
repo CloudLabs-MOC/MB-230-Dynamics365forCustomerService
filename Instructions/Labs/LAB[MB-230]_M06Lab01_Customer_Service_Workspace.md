@@ -1,9 +1,3 @@
----
-lab:
-    title: 'Lab: Customer Service workspace'
-    module: 'Module 6: Customer Service workspace'
----
-
 # Practice Lab 10 – Customer Service workspace
 
 ## Scenario
@@ -20,28 +14,42 @@ In this exercise you will learn how to navigate the Customer Service workspace a
 
 2.  Click on the name of the app in the top left of the application next to Dynamics 365 and from the list of published apps, select the **Customer Service workspace** app.
 
-3.  In the Customer Service Agent Dashboard, find the **Defective Screen** case, and click on the case to open it. A new session starts in the left-hand pane for the case and **Smart assist** opens in the **Productivity pane** on the right of the app with a list of knowledge article suggestions.
+    ![](../images/CSH.png)
+
+3.  In the Customer Service Agent Dashboard, find the **Defective Screen Not Received** case, and click on the case to open it. A new session starts in the left-hand pane for the case and **Smart assist** opens in the **Productivity pane** on the right of the app with a list of knowledge article suggestions.
+
+    ![](../images/CSH-1.png)
 
 4.  Click on the **Agent scripts** icon on the Productivity pane. There are no scripts available.
+
+    ![](../images/CSH-2.png)
 
 5.  Click on the **Knowledge search** icon on the Productivity pane. There should be articles listed.
 
 6.  Click on the **Knowledge search** icon on the Productivity pane to minimize the Productivity pane.
 
-7.  Click on the Relecloud account in the **Customer** field on the case form. A new tab opens for the account.
+    ![](../images/CSH-3.png)
+
+7.  Click on the **Relecloud** account in the **Customer** field on the case form. A new tab opens for the account.
+
+    ![](../images/CSH-4.png)
 
 8.  Switch to the account tab.
 
-9.  Click on **+** next to the account tab and select **Cases**.
+9.  Click on **Home** left to the account tab and select **Cases**.
 
-10. Click to the left of the **Defective Speaker** case to select the case in the case list.
+    ![](../images/CSH-5.png)
 
-11. Hold the Shift key down and select the **Defective Speaker** case. A new session starts in the left-hand pane for the case. 
+10. Select the **Defective Speaker Not Received** case to select the case in the case list.
 
-12. You should now how have two sessions.
+11. You should now have two sessions.
 
-13. Select the first session for the **Defective Screen** case and click on **Close the session** and confirm with **Close**.
+    ![](../images/CSH-6.png)
 
-14. Select the remaining session for the **Defective Speaker** case and click on **Close the session** and confirm with **Close**.
+12. Select the first session for the **Defective Speaker Not Received** case and click on **Close the session** and confirm with **Close**.
 
-15. The Customer Service Agent Dashboard is displayed.
+13. Select the remaining session for the **Defective Speaker Not Received** case and click on **Close the session** and confirm with **Close**.
+
+14. The Customer Service Agent Dashboard is displayed.
+
+**Result:** You have successfully created customer Service workspace and displayed on the Customer Service Agent Dashboard. 

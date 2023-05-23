@@ -1,9 +1,3 @@
----
-lab:
-    title: 'Lab: Routing cases'
-    module: 'Module 1: Case Management'
----
-
 # Practice Lab 4 – Routing cases
 
 ## Scenario
@@ -14,131 +8,154 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 ### Task 1 – Enable a case to be created from an email in a queue
 
-1.  Open the **Customer Service Hub** app.
+1. Click on the **Customer Service Hub (1)** app from the top and select **Customer service admin (2)**.
 
-2.  Click on **Service** at the bottom of the **Site Map** in the left-hand navigation and select **Service Management**.
+   ![](../images/Customer-service-admin-1.png)
+    
+1. Using the navigation on the left, select **Case settings (1)**.
 
-2.  Click on **Automatic record creation and update rules** in the **Case Settings** section.
+1. Select **Manage (2)** next to **Automatic record creation and update rules**.
 
-4.  Click **+ New** located on the command bar.
+   ![](../images/creation-rules-10.png)
 
-5.  Enter **[your prefix ex. mollyc]** + **Create case for support email** for **Rule name**, select the **Support** queue you created for **Queue to monitor**, and select **Email** for **Activity type to monitor**.
+1. Click **+ New** located on the command bar.
 
-6.  Click **Save**.
+1. Enter **Support email (1)** for **Rule name**.
 
-7.  In **Step two: conditions to evaluate and actions to take**, click **+ New**.
+1. Select the **Support (2)** queue you created for Queue to monitor and select **Email (2)** for Activity type to monitor.
 
-8.  Enter **High priority emails** for **Condition name**.
+   ![](../images/creation-rules-20.png)
+    
+1. Click **Save**.
 
-9.  Click on **Add** and **Add row** .
+1. In **Step two: conditions to evaluate and actions to take**, click **+ New**.
 
-10. In the left-hand side of the condition, select **Priority (Email)**
+1. Enter **High priority emails (1)** for **Condition name**.
 
-11. Select **Equals** for the operator.
+1. Click on **Add** and then select **Add row** from the drop-down.
 
-12. In the right-hand side of the condition, select **High**.
+1. In the left-hand side of the condition, select **Priority (Email) (2)** from the drop-down.
 
-13. Click **Save and open Power Automate**.
+1. Select **Equals** from the drop-down for the operator.
 
-14. If prompted to connect to Dataverse, click **Continue**.
+1. In the right-hand side of the condition, select **High** from the drop-down.
 
-15. Expand the **Create a record (don't rename this step)** step.
+1. Click **Save and open Power Automate (3)**.
 
-16. Set the **Case Type** to **Request**.
+   ![](../images/creation-rules-3.png)
 
-17. Set the **Priority field** to **High**.
+1. If prompted to connect to Dataverse, click **Continue**.
 
-18. Click **Save** and close the Power Automate browser tab.
+1. If not Sign-in, then enter following **Email/Username** and then click on **Next**. 
+   * Email/Username: <inject key="AzureAdUserEmail"></inject>
+   
+1. Now, enter the following **Password** and click on **Sign in**.
+   * Password: <inject key="AzureAdUserPassword"></inject>
 
-19. Click **Close** in the *Record Creation and Update Rule Item* dialog.
+1. Expand the **Create a record (don't rename this step)** step.
 
-20. In **Step three: additional actions to take after matching with a condition**, set *Automatically reply to email*  to **Yes**.
+   ![](../images/creation-rules-4.png)
 
-21. In *Select email template*, search for and select **Case Auto Response**.
+1. Set the **Case Type** to **Request (1)**.
 
-22. Click **Save**.
+1. Set the **Priority field** to **High (2)**.
 
-23. Click **Activate**.
+1. Click **Save (3)** and close the Power Automate browser tab.
 
-24. Click **Activate**.
+   ![](../images/creation-rules-50.png)
 
-25. Due to the lack of administrative access to email mailboxes, you will not be able to test this rule.
+1. Click **Close** in the *Record Creation and Update Rule Item* dialog.
+
+2. In **Step three: additional actions to take after matching with a condition**, set *Automatically reply to email*  to **Yes (1)**.
+
+1. In *Select email template*, search for and select **Case Auto Response (2)**.
+
+1. Click **Save (3)**.
+
+   ![](../images/creation-rules-61.png)
+
+1. Click **Activate (1)** and then **Activate (1)** from popup.
+
+   ![](../images/creation-rules-60.png)
+
+1. Due to the lack of administrative access to email mailboxes, you will not be able to test this rule.
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Select the **Lab Validation** tab located at the upper right corner of the lab guide section.
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ## Exercise 2 – Basic routing
 
 ### Task 1 – Configure basic routing rule set
 
-1.  Open the **Customer Service Hub** app.
+1. Click on the **Customer Service Hub (1)** app from the top and select **Customer service admin (2)**.
 
-2.  Click on **Home** at the top of the left-hand side navigation.
+    ![](../images/Customer-service-admin-1.png)
+    
+1. Click on **Routing (1)** in the **Customer support** section and then click on **Manage (2)** for **Basic routing rile sets**.
 
-3.  Click on **Service** at the bottom of the **Site Map** in the left-hand navigation and select **Service Management**.
+    ![](../images/Basic-routing-10.png)
 
-4.  Click on **Routing Rule Sets** in the **Case Settings** section.
+1. Click **+ New** located on the command bar.
 
-5.  Click **+ New** located on the command bar.
+1. Enter **Basic case routing rules (1)** for **Name** and then click on **Save (2)**.
 
-6.  Enter **[your prefix ex. mollyc]** + **basic case routing rules** for **Name**.
+    ![](../images/Basic-routing-20.png)
 
-7.  Click **Save**.
+1. Click **+ New Rule Item**.
 
-8.  Click **+ New Rule Item**.
+    ![](../images/Basic-routing-21.png)
 
-9.  Enter **Problem** for **Name**.
+1. Click on **Add** and **Add row**.
 
-10. Click on **Add** and **Add row**.
+    ![](../images/Basic-routing-22.png)
+    
+1. Enter **Problem (1)** for **Name**. 
+    * In the left-hand side of the condition, select **Case Type (Case) (2)**. 
+    * Select **Equals (3)** for the operator. for the condition, select **Problem (4)**.
+    * Select **Queue (5)** for **Route To**.
+    * Search for and select the **Gold (6)** queue you created in the earlier lab.
+    * Click **Save & Close (7)**.
 
-11. In the left-hand side of the condition, select **Case Type (Case)**.
+      ![](../images/Basic-routing-50.png)
 
-12. Select **Equals** for the operator.
+1. Click **+ New Rule Item**.
+    * Enter **Maintenance (1)** for **Name**.
+    * Click on **Add** and **Add row**.
+    * In the left-hand side of the condition, select **Subject (Case) (2)**.
+    * Select **Equals (3)** for the operator.
+    * In the right-hand side of the condition, select **Service (4)**.
+    * Select **Queue (5)** for **Route To**.
+    * Search for and select the **Silver (6)** queue you created in the earlier lab.
+    * Click **Save & Close (7)**.
 
-13. In the right-hand side of the condition, select **Problem**.
+      ![](../images/Basic-routing-90.png)
 
-14. Select **Queue** for **Route To**.
+1. Click **+ New Rule Item**.
+    * Enter **Questions and Requests (1)** for **Name**.
+    * Click on **Add** and **Add row**.
+    * In the left-hand side of the condition, select **Case Type (Case) (2)**.
+    * Select **Equals (3)** for the operator.
+    * For condition, select **Question (4)** and select **Request**.
+    * Select **Queue (5)** for **Route To**.
+    * Search for and select the **Bronze (6)** queue you created in the earlier lab.
+    * Click **Save & Close (7)**.
 
-15. Search for and select the **Gold** queue you created in the earlier lab.
+      ![](../images/Basic-routing-70.png)
 
-16. Click **Save & Close**.
+1. Click **Save**.
 
-17. Click **+ New Rule Item**.
+36. Click **Activate (1)** and click **Yes (2)**.
 
-18. Enter **Maintenance** for **Name**.
+    ![](../images/Basic-routing-71.png)
 
-19. Click on **Add** and **Add row**.
-
-20. In the left-hand side of the condition, select **Subject (Case)**.
-
-21. Select **Equals** for the operator.
-
-22. In the right-hand side of the condition, select **Service**.
-
-23. Select **Queue** for **Route To**.
-
-24. Search for and select the **Silver** queue you created in the earlier lab.
-
-25. Click **Save & Close**.
-
-26. Click **+ New Rule Item**.
-
-27. Enter **Questions and Requests** for **Name**.
-
-28. Click on **Add** and **Add row**.
-
-29. In the left-hand side of the condition, select **Case Type (Case)**.
-
-30. Select **Equals** for the operator.
-
-31. In the right-hand side of the condition, select **Question** and select **Request**.
-
-32. Select **Queue** for **Route To**.
-
-33. Search for and select the **Bronze** queue you created in the earlier lab.
-
-34. Click **Save & Close**.
-
-35. Click **Save**.
-
-36. Click **Activate** and click **Yes**.
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Select the **Lab Validation** tab located at the upper right corner of the lab guide section.
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ## Exercise 3 – Route cases
 
@@ -148,25 +165,33 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 2.  Click on **Home** at the top of the left-hand side navigation.
 
-3.  Click on **Cases** in the **Service** section of the sitemap.
+3.  Click on **Cases (1)** in the **Service** section of the sitemap.
 
-4.  Enter *your prefix ex. mollyc* in the **Search this view** field, click on the lookup icon.
+4.  In the **Search this view** field, click on the lookup icon.
 
-5.  Open the **Defective Screen** case you created.
+5.  Open the **Defective Screen Not Received (2)** case you created.
 
-6.  Click **Queue Item Details** located on the command bar.
+6.  Click **Queue Item Details (3)** located on the command bar.
+
+    ![](../images/Basic-routing-72.png)
 
 7.  The following message should be displayed *This record is not added to any queue.*
 
 8.  Click **OK**.
 
-9.  Click **Save & Route** and click **Route**.
+    ![](../images/Basic-routing-73.png)
+
+9.  Click **Save & Route (1)** and click **Route (2)**.
+
+    ![](../images/Basic-routing-74.png)
 
 10. Open the **Defective Screen** case again.
 
 11. Click **Queue Item Details** located on the command bar.
 
-12. The case will be have been routed to the *Gold* queue.
+12. The case will have been routed to the *Gold* queue.
+
+    ![](../images/Basic-routing-76.png)
 
 13. In the case view, click to the left of the **Service Required** case to select it.
 
@@ -174,5 +199,6 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 15. Open the **Service Required** case.
 
-16. The case will be have been routed to the *Silver* queue.
-
+16. The case will have been routed to the *Silver* queue.
+    
+**Result:** You have successfully Configured the basic routing rule set and created the route cases in this lab. 

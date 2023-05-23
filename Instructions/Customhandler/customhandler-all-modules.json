@@ -1,0 +1,26 @@
+{
+  "AutoPasswordGeneration": true,
+  "Users": [
+    {
+      "FirstName": "Molly",
+      "LastName": "Clarke",
+      "UPNPrefix": "MollyC",
+      "GlobalAdmin": true,
+      "UserLicenses": [
+        "bd938f12-058f-4927-bba3-ae36b1d2501c",
+        "51f99b45-3f92-4ef0-9167-b04709a62106"
+      ]
+    }
+  ],
+  "Licenses": [
+    {
+      "offerId": "bd938f12-058f-4927-bba3-ae36b1d2501c",
+      "quantity": 1
+    },
+
+    {
+      "offerId": "51f99b45-3f92-4ef0-9167-b04709a62106",
+      "quantity": 1
+    }
+  ]
+}

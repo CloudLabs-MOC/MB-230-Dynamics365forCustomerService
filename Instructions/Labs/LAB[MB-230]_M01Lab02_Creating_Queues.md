@@ -1,9 +1,3 @@
----
-lab:
-    title: 'Lab: Creating queues'
-    module: 'Module 1: Case Management'
----
-
 # Practice Lab 2 – Queues
 
 ## Scenario
@@ -16,120 +10,156 @@ In this exercise, you will create four queues.
 
 ### Task 1 – Create Queues
 
-1.  Open the **Customer Service Hub** app.
+1.  Click on the **Customer Service Hub (1)** app from the top and select **Customer service admin (2)**.
 
-2.  Click on **Service** at the bottom of the **Site Map** in the left-hand navigation and select **Service Management**.
+    ![](../images/Customer-service-admin-1.png)
 
-2.  Click on **Queues** in the **Case Settings** section.
+1. Click on **Queues (1)** in the **Customer support** section and then click on **Manage (2)** from right side.
 
-4.  Click **+ New** located on the command bar.
+    ![](../images/Customer-service-admin-2.png)
 
-5.  Enter **[your prefix ex. mollyc]** + **Support** for **Name** and select **Public** for **Type**, and enter **[your prefix ex. mollyc]** + **.support@test.invalid** for **Incomming Email**.
+1.  Click **+ New** located on the command bar.
 
-6.  Click **Save**.
+1.  Enter **Support (1)** for **Name** and select **Public (2)** for **Type**, and <inject key="AzureAdUserEmail"></inject> for **Incoming Email (3)**, then click on **Save (4)**.
 
-7.  Click **+ New**.
+    ![](../images/Customer-service-admin-3.1.png)
 
-8.  Enter **[your prefix ex. mollyc]** + **Bronze** for **Name** and select **Private** for **Type**.
+1.  Again, click **+ New** located on the command bar.
 
-9.  Click **Save**.
+1.  Enter **Bronze (1)** for **Name** and select **Private (2)** for **Type**.
 
-10. Click **+ New**.
+1.  Click **Save (3)**.
 
-11. Enter **[your prefix ex. mollyc]** + **Silver** for **Name** and select **Private** for **Type**.
+     ![](../images/Customer-service-admin-4.1.png)
 
-12. Click **Save**.
+1. Click **+ New**.
 
-13. Click **+ New**.
+1. Enter **Silver** for **Name** and select **Private** for **Type**.
 
-14. Enter **[your prefix ex. mollyc]** + **Gold** for **Name** and select **Private** for **Type**.
+1. Click **Save**.
 
-15. Click **Save**.
+1. Click **+ New**.
 
-16. Click **Queues** under the **Case Settings** section.
+1. Enter **Gold** for **Name** and select **Private** for **Type**.
 
-17. Select the **My Active Queues** view
+1. Click **Save**.
 
-18. You should now see a private queue that was created for your user automatically, the public queue, and three private queues that you created in this lab.
+1. Click on **Queues (1)** in the **Customer support** section and then click on **Manage (2)**.
 
-19. Click on **Service Management** at the bottom of the **Site Map** in the left-hand navigation and select **Service**.
+    ![](../images/Customer-service-admin-2.png)
 
-20. Click **Queues** under the **Service** section.
+1. Select the **My Active Queues (1)** view.
 
-21. Change the view from **Items I am working on** to **All items**
+1. You should now see a private queue that was created for your user automatically, the public queue, and private queues that you created in this lab.
 
-22. Review the options in the list for **Queues I'm a member of**. You should be able to see the four queues you created.
+    ![](../images/Customer-service-admin-7.1.png)
+
+1. Navigate back to the previous **services** tab of **Customer Services Hub**.
+
+1. On the services page, refresh the page and Click **Queues** under the **Service** section.
+
+1. Change the view from **Items I am working on** to **All items**.
+
+    ![](../images/all-item.png)
+
+1. Review the options in the list for **Queues I'm a member of**. You should be able to see the four queues you created.
+
+    ![](../images/all-item-1.1.png)
+    
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Select the **Lab Validation** tab located at the upper right corner of the lab guide section.
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### Task 2 – Add cases to queues
 
 1.  Open the **Customer Service Hub** app.
 
-2.  Click on **Cases** in the **Service** section of the sitemap.
+1.  Click on **Cases (1)** in the **Service** section of the sitemap.
 
-3.  Enter *your prefix ex. mollyc* in the **Search this view** field, click on the lookup icon and select the **Service Required** case you created in the earlier lab.
+1.  Select the **My Active cases** from the drop down and you will be able to see **Service Required**.
 
-4.  Click **Add to Queue** located on the command bar.
+    ![](../images/adds-1.png)
 
-5.  Enter *your prefix ex. mollyc* in the **Queue** field, click on the lookup icon and select the **Bronze** queue you created in the task
+1.  Select the **Service Required (2)** case you created in the earlier lab and then click **Add to Queue (3)** located on the command bar.
 
-6.  Click **Add**
+    ![](../images/add-1.1.png)
 
-7.  Click on **Cases** in the **Service** section of the sitemap.
+1.  In the **Queue** field, click on the lookup icon and select the **Bronze (1)** queue you created in the task and then **Add (2)**
 
-8.  Enter *your prefix ex. mollyc* in the **Search this view** field, click on the lookup icon and select the **Defective Screen** case you created in the earlier lab.
+    ![](../images/add-2.1.png)
 
-9.  Click **Add to Queue** located on the command bar.
+1.  Click on **Cases (1)** in the **Service** section of the sitemap. Select the **Defective Screen (2)** case you created in the earlier lab and then click on **Add to Queue (3)** located on the command bar.
 
-10. Enter *your prefix ex. mollyc* in the **Queue** field, click on the lookup icon and select the **Support** queue you created in the task
+    ![](../images/support-add-1.1.png)
 
-11. Click **Add**
+1. In the **Queue** field, click on the lookup icon and select the **Support (1)** queue you created in the task
 
-12. Click **Queues** under the **Service** section.
+1. Click **Add (2)**
 
-13. Change the view from **Items I am working on** to **All items**
+    ![](../images/support-add-1.2.png)
 
-14. You should see the Service Required case listed for the Bronze queue.
+1. Click **Queues (1)** under the **Service** section. Change the view from **Items I am working on** to **All items (2)**. You should see the **Service Required** case listed for the Bronze queue.
 
-15. Change the queue selector from **Queues I'm a member of** to **All Public Queues**.
+    ![](../images/bronze.png)
 
-16. You should see the Defective Screen case listed for the Support queue.
+1. Change the queue selector from **Queues I'm a member of (1)** to **All Public Queues (2)**.
 
-17. Change the queue selector to **All Queues**.
+    ![](../images/Customer-service-admin-8.1.png)
+
+1. You should see the Defective Screen case listed for the Support queue. Change the queue selector to **All Public Queues**.
+
+    ![](../images/public.1.png)
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Select the **Lab Validation** tab located at the upper right corner of the lab guide section.
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### Task 3 – Perform actions on queue items
 
-1.  Click **Queues** under the **Service** section.
+1.  Click **Queues** under the **Service** section. 
 
-2.  Change the view from **Items I am working on** to **Items available to work on**.
+1.  Change the view from **Items I am working on** to **Items available to work on (1)**. Change the queue selector to **Queues I'm a member of (2)**. You should see the Service Required case listed for the Bronze queue.
 
-3.  Change the queue selector to **Queues I'm a member of**.
+    ![](../images/details-1.1.png)
 
-4.  You should see the Service Required case listed for the Bronze queue.
+1.  Click to the left of the case in the queue to **select it (1)** then click on **Queue Item Details (2)** located on the command bar.
 
-5.  Click to the left of the case in the queue to select it.
+    ![](../images/details-1.2.png)
 
-6.  Click **Queue Item Details** located on the command bar.
+1.  Note that **Worked By** is blank.
 
-7.  Note that **Worked By** is blank.
+    ![](../images/details-1.3.png)
 
-8.  Click **Close**
+1.  Click **Close** from the three dots.
 
-9.  Click to the left of the case in the queue to select it.
+1.  Click to the left of the case in the queue to **select it (1)** then click on **Pick (2)** located on the command bar.
 
-10. Click **Pick** located on the command bar.
+    ![](../images/pick-1.1.png)
 
-11. Leave the *Also remove the item(s) from the Queue* option set to **No**, and click **Pick**.
+1. Leave the *Also remove the item(s) from the Queue* option set to **No (1)** and click **Pick (2)**.
 
-12. Change the view from **Items available to work on** to **Items I am working on**.
+    ![](../images/details-1.5.png)
 
-13. Click to the left of the case in the queue to select it.
+1. Change the view from **Items available to work on** to **Items I am working on**.
 
-14. Click **Queue Item Details** located on the command bar.
+1. Click to the left of the case in the queue to select it.
 
-15. Note that **Worked By** is set to your user.
+1. Click **Queue Item Details** located on the command bar.
 
-16. Click **Close**
+1. Note that **Worked By** is set to **<inject key="AzureAdUserEmail"></inject>** user.
 
-17. Click to the left of the case in the queue to select it.
+    ![](../images/worked-by-1.1.png)
 
-18. Click **Release** located on the command bar and click **Release**.
+1. Click **Close**.
+
+1. Click to the left of the case in the queue to **select it (1)**.
+
+1. Click **Release (2)** located on the command bar and click **Release (2)**.
+
+    ![](../images/release-1.1.png)
+    
+**Result:** You have accomplished the creation of queues, inclusion of cases in the queues, and execution of actions on queue items.

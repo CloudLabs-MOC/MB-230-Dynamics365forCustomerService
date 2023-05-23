@@ -1,0 +1,65 @@
+[
+  {
+    "Name": "MB-230: Microsoft Dynamics 365 Customer Service Functional Consultant",
+    "Language": "English",
+    "BaseURL": "https://github.com/MicrosoftLearning/MB-230-Dynamics365forCustomerService",
+    "Files": [
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MB-230-Dynamics365forCustomerService/stage/Instructions/masterdoc/lab_intro.md",
+        "Order": 1
+      },      
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MB-230-Dynamics365forCustomerService/stage/Instructions/Labs/LAB%5BMB-230%5D_M00Lab00_Dynamics_365_Labs.md",
+        "Order": 2
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MB-230-Dynamics365forCustomerService/stage/Instructions/Labs/LAB%5BMB-230%5D_M01Lab01_Creating_Cases.md",
+        "Order": 3
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MB-230-Dynamics365forCustomerService/stage/Instructions/Labs/LAB%5BMB-230%5D_M01Lab02_Creating_Queues.md",
+        "Order": 4
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MB-230-Dynamics365forCustomerService/stage/Instructions/Labs/LAB%5BMB-230%5D_M01Lab03_Resolving_Cases.md",
+        "Order": 5
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MB-230-Dynamics365forCustomerService/stage/Instructions/Labs/LAB%5BMB-230%5D_M01Lab04_Route_Cases.md",
+        "Order": 6
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MB-230-Dynamics365forCustomerService/stage/Instructions/Labs/LAB%5BMB-230%5D_M02Lab01_Entitlements_and_Templates.md",
+        "Order": 7
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MB-230-Dynamics365forCustomerService/stage/Instructions/Labs/LAB%5BMB-230%5D_M03Lab01_Create_knowledge_articles.md",
+        "Order": 8
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MB-230-Dynamics365forCustomerService/stage/Instructions/Labs/LAB%5BMB-230%5D_M04Lab01_Create_Survey.md",
+        "Order": 9
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MB-230-Dynamics365forCustomerService/stage/Instructions/Labs/LAB%5BMB-230%5D_M05Lab01_Configure_Customer_Service_Scheduling.md",
+        "Order": 10
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MB-230-Dynamics365forCustomerService/stage/Instructions/Labs/LAB%5BMB-230%5D_M05Lab02_Define_Services.md",
+        "Order": 11
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MB-230-Dynamics365forCustomerService/stage/Instructions/Labs/LAB%5BMB-230%5D_M06Lab01_Customer_Service_Workspace.md",
+        "Order": 12
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MB-230-Dynamics365forCustomerService/stage/Instructions/Labs/LAB%5BMB-230%5D_M06Lab03_Agent_Collab.md",
+        "Order": 13
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MB-230-Dynamics365forCustomerService/stage/Instructions/Labs/LAB%5BMB-230%5D_M08Lab01_Customer_Service_Insights.md",
+        "Order": 14
+      }
+    ]
+  }
+]
