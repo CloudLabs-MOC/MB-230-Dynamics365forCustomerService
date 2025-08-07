@@ -1,4 +1,4 @@
-# Practice Lab 5 – Entitlements and templates
+# Lab 05 – Entitlements and templates
 
 ## Lab scenario
 
