@@ -1,4 +1,4 @@
-# Practice Lab - Setup Dynamics 365 for Customer Service
+# Lab 0 - Setup Dynamics 365 for Customer Service
 
 ## Scenario
 
