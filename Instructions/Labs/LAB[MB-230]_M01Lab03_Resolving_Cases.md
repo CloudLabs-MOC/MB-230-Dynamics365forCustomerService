@@ -1,4 +1,4 @@
-# Practice Lab 3 – Resolving cases
+# Lab 03 – Resolving cases
 
 ## Lab scenario
 
