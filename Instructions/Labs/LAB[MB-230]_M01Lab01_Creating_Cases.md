@@ -1,4 +1,4 @@
-# Practice Lab 1 – Creating cases
+# Lab 1 – Creating cases
 
 ## Lab scenario
 
