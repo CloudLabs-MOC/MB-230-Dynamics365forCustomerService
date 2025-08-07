@@ -1,4 +1,4 @@
-# Practice Lab 4 – Routing cases
+# Lab 04 – Routing cases
 
 ## Lab scenario
 
