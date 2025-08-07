@@ -1,4 +1,4 @@
-# Practice Lab 2 – Queues
+# Lab 02 – Queues
 
 ## Lab scenario
 
