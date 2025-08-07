@@ -1,4 +1,4 @@
-# Practice Lab 7 – Customer Voice
+# Lab 07 – Customer Voice
 
 ## Lab scenario
 
