@@ -1,4 +1,4 @@
-# Practice Lab 9 – Customer Service Scheduling Services
+# Lab 09 – Customer Service Scheduling Services
 
 ## Lab scenario
 
