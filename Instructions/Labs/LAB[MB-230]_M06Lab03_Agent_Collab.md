@@ -1,4 +1,4 @@
-# Practice Lab 11 – Agent Collaboration
+# Lab 11 – Agent Collaboration
 
 ## Lab scenario
 
@@ -353,3 +353,4 @@ In this lab, you have completed:
 - Create a Case Swarm
 
 ### Proceed with the next Lab.
+
