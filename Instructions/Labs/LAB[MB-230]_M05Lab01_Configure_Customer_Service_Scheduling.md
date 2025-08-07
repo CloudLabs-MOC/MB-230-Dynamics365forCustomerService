@@ -1,4 +1,4 @@
-# Practice Lab 8 – Customer Service Scheduling Configuration
+# Lab 08 – Customer Service Scheduling Configuration
 
 ## Lab scenario
 
