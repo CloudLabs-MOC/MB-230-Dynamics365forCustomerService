@@ -1,4 +1,4 @@
-# Practice Lab 6 – Knowledge management
+# Lab 06 – Knowledge management
 
 ## Lab scenario
 
