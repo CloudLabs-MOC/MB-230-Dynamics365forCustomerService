@@ -22,78 +22,76 @@ In this practice lab, you will validate and set up your tenant.
 
     ![](https://github.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/blob/main/media/M2-Ex1-portalsignin-2.png?raw=true)
 
-1. If you see the pop-up **Action Required** page, select **Ask Later**.
-
-    ![](../images/asklater.png)
-
 1. If you see the pop-up **Stay Signed in?**, click No.
 
     ![](../images/staysignedinNO.png)
 
-1. If you see the pop-up  **Welcome to the Power Platform admin center!** click on **X** at the top right corner.
+1. If you see the pop-up **Welcome to the Power Platform admin center!**, click on **X** at top right corner.
+
 1. Feel free to explore the Power Platform admin center but **do not make any changes.**
 
 ### Task 2 – Create Environment into the Power Platform admin center
 
-1. On the Power Platform admin center, from the navigation pane, select **Environments(1)** and observe the **default environment present(2)**. Do not **use**, **modify**, or **delete** the **default** environment.
+1. On the Power Platform admin center, from the navigation pane, select **Manage (1)** and select **Environments (2)** and observe the **default environment present (3)**. Do not **use**, **modify**, or **delete** the **default** environment.
 
-    ![](../images/environments.png)
+    ![](../images/Lab0-task2-1.png)
 
-1. On the **Environments(1)** pane, select **+ New(2)** to create a new  environment.
+1. Next, select **Manage (1)** and on the **Environments (2)** pane, select **+ New (3)** to create a new environment.
 
-    ![](../images/newenv.png)
+    ![](../images/Lab0-task2-2.png)
 
 1. On the **New environment** page, specify the following settings:
 
-  
-   - Name: Enter **Prod-Env(1)**
-   - Region: Choose **United States(2)**
-   - Type: Choose **Production(3)**
-   - Add a Dataverse data store? **Enabled(4)**
-   - Select **Next(5)**
+   - Type: Choose **Production (1)**
+   - Name: Enter **Prod-Env (2)**
+   - Click on **Change default settings (3)** 
    
-    ![](../images/newenvnext.png)
+    ![](../images/Lab0-task2-3.png)
     
-1. Now scroll-down and specify the following settings and click on **Save**:
-
-   - Enable Dynamics 365 apps?: **Enabled(1)**
-   - Security group: Click on **+ Select(2)**
+1. Now scroll-down and enable **Add a Dataverse data store (1)** under default settings and click on **Next (2)**.
    
-    ![](../images/adddataverse.png)
-   
-   - On the **Edit security group page** select **None(3)** option from the list and click on **Done(4)**
+    ![](../images/Lab0-task2-4.png)
 
-    ![](../images/nonesecuritygroup.png) 
+1. Next, click on **+ Select** under Security group.
+
+    ![](../images/Lab0-task2-5.png)
+
+   - On the **Edit security group page** select **None(1)** option from the list and click on **Done(2)**
+
+    ![](../images/Lab0-task2-6.png) 
+
+1. Next, enable the toggle button under **Enable Dynamics 365 apps (1)** and click on **Save (2)**.
+
+    ![](../images/Lab0-task2-7.png)
    
    >**Note**: Wait for the Environment to get **ready** before you continue with this lab.   
    
-   >**Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   > - Select the **Lab Validation** tab located at the upper right corner of the lab guide section.
-   > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+> - In case if you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
    
 ### Task 3 - Installing Dynamic 365 Service Scheduling.
 
 1. On the Power Platform admin center, select the **Prod-Env** environment.
 
-   ![](../images/prodready.png)
+   ![](../images/Lab0-task3-1.png)
     
-1. Click on the drop-down next to **Resources** and select **Dynamic 365 apps**.
+1. Click on the drop-down next to **Resources (1)** and select **Dynamic 365 apps (2)**.
 
-    ![](../images/dynamic365.png)
+    ![](../images/Lab0-task3-2.png)
     
 1. Click on **Install app** located on the command bar.
 
-    ![](../images/installapp.png)
+    ![](../images/Lab0-task3-3.png)
     
 1. Search and select **Dynamic 365 Service Scheduling(1)** then click on **Next(2)**.
 
     ![](../images/scheduleselect.png)
     
-1. On the **Install Dynamic 365 Service Scheduling** page, check the **I agree to terms of service(1)** box then click on **Install(2)**.
+1. On the **Install Dynamic 365 Service Scheduling** page, check the **I agree to terms of service (1)** box then click on **Install (2)**.
 
-    ![](../images/clickinstall.png)
+    ![](../images/Lab0-task3-4.png)
   
      >**Note:** It will take 25-30 minutes to get install. Once it got installed you can see that the status got changed from **Installing** to **Installed**. You can move on to the next task.
  
@@ -103,11 +101,11 @@ In this practice lab, you will validate and set up your tenant.
 
 1. On the Power Platform admin center, select the **Prod-Env** environment.
 
-   ![](../images/prodready.png)
+   ![](../images/Lab0-task3-1.png)
    
 1. Select the **Open** located on the command bar.
 
-   ![](../images/open.png)
+   ![](../images/Lab0-task4-1.png)
 
 1. From the list of available Dynamics 365 apps, select the **Customer Service Hub** app.
 
@@ -117,6 +115,26 @@ In this practice lab, you will validate and set up your tenant.
 
 1. You should now be showing the **Dashboard** view.
 
+> **Note:** If the **Customer Service Hub** app doesn't appear in the list, follow below steps:
+
+1. Copy and paste this link to navigate to Power apps page.
+
+    ```
+    https://make.powerapps.com/
+    ```
+
+1. Click on **Environment tab (1)** at top right corner, make sure that you are in **Prod-Env (2)** environment.
+
+    ![](../images/Lab0-task4-2.png)
+
+1. Select **Apps** from left panel.
+
+    ![](../images/Lab0-task4-3.png)
+
+1. Select **All (1)**, search for **Customer Service Hub (2)** and click on **Play &#x25B6; (3)** to open **Customer Service Hub** app.
+
+    ![](../images/Lab0-task4-4.png)
+
 > **Result:** You have successfully created your Dynamics 365 environment.
 
-### **Proceed with the next Lab.**
+### Proceed with the next Lab.

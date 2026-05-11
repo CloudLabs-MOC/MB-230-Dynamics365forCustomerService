@@ -27,16 +27,10 @@ In this exercise, you will create an Account, a Contact, and a Case record. You 
 1.  Enter **Relecloud (1)** for **Account Name** and click **Save & Close (2)**.
 
      ![](../images/relecloud.png)
-    
-     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-     > - Select the **Lab Validation** tab located at the upper right corner of the lab guide section.
-     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### Task 2 – Create Contacts
 
-1.  Click on **Contacts (1)** in the **Customers** section of the sitemap and click on **+ New (2)** located on the command bar.
+1.  Click on **Contacts (1)** from the **Customers** section of the sitemap and click on **+ New (2)** located on the command bar.
 
      ![](../images/contacts1.png)
      
@@ -50,7 +44,7 @@ In this exercise, you will create an Account, a Contact, and a Case record. You 
 
    - Click **Save & Close (4)**.
 
-    ![](../images/newcontact.png)
+    ![](../images/Lab1-task2-1.png)
 
 1.  Click **+ New** located on the command bar on **Contacts** page
 
@@ -66,17 +60,11 @@ In this exercise, you will create an Account, a Contact, and a Case record. You 
 
    - Click **Save & Close (4)**.
 
-    ![](../images/jon.png)
-     
-     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-     > - Select the **Lab Validation** tab located at the upper right corner of the lab guide section.
-     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+    ![](../images/Lab1-task2-2.png)
 
 ### Task 3 – Create Case
 
-1.  Click on the **Customer Service Hub (1)** app from the top and select **Customer service admin (2)**.
+1.  Click on the **Customer Service Hub (1)** app from the top and select **Customer service admin center(2)**.
 
     ![](../images/Customer-service-admin-1.png)
     
@@ -85,29 +73,35 @@ In this exercise, you will create an Account, a Contact, and a Case record. You 
      ![](../images/managesubject.png)
      
 
-1.  On the **Subject tree** page, select **Add** next to **Subject tree management**.
+1.  On the **Subject tree** page, select **+ Add** next to **Subject tree management**.
 
      ![](../images/addsubjecttree.png)
      
-1.  In the Create a subject dialog, enter the following information and remaining leave default then Select **Save and close**:
+1.  In the **Create a subject** dialog, enter the following information and remaining leave default:
     
      - Title: type **Maintenance (1)** for the subject.
     
-     - Click on **Save and Close (2)**
+     - Click on **Save and close (2)**
          
     ![](../images/maintenance.png)
     
-1.  On the **Subject tree** page, select **Add** next to **Subject tree management**.
+1.  On the **Subject tree** page, select **+ Add** next to **Subject tree management**.
+
+     ![](../images/Lab1-task3-1.png)
      
-1.  In the Create a subject dialog, enter the following information and remaining leave default then Select **Save and close**.:
+1.  In the **Create a subject** dialog, enter the following information and remaining leave default:
     
      - Title: Type **Service (1)** for the subject.
     
-     - Click on **Save and Close (2)**
+     - Click on **Save and close (2)**
      
      ![](../images/sevicetree.png)
     
-1. Again Click on **Customer service admin**  the app from the top and select  **Customer Service Hub**.
+1. Again, Click on **Customer service admin** the app from the top and select **Customer Service Hub**.
+
+    > **Note:** If you are unable to see **Customer Service Hub** app in the list, navigate to link <https://make.powerapps.com/> and Select **Apps** from left panel. Select **All (1)**, search for **Customer Service Hub (2)** and click on **Play &#x25B6; (3)** to open **Customer Service Hub** app.
+    >
+    > ![](../images/Lab0-task4-4.png)
     
 1. Click on **Cases (1)** in the **Service** section of the sitemap and click on **+ New Case (2)** located on the command bar.
 
@@ -119,7 +113,7 @@ In this exercise, you will create an Account, a Contact, and a Case record. You 
 
    - Subject: **Maintenance (2)**.
 
-   - Customer:  Click on **Relecloud (3)**.
+   - Customer: Click on **Relecloud (3)**.
 
    - Origin: Choose **Phone (4)**
  
@@ -185,18 +179,11 @@ In this exercise, you will create a Phone Call activity and then convert the act
 
      ![](../images/jonphonecall1.png)
      
-     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-     > - Select the **Lab Validation** tab located at the upper right corner of the lab guide section.
-     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
-
-
 ### Task 2 – Covert Phone Call activity
 
 1.  In the Timeline, click on the **Open Record** icon for the phone call you just created.
 
-    ![](../images/record-1.png)
+    ![](../images/Lab1-Ex2-task2-1.png)
 
 1.  Click **Convert To** located on the command bar and click on **To Case**
   
@@ -213,12 +200,13 @@ In this exercise, you will create a Phone Call activity and then convert the act
 
 1.  Review the case that was created is closed now. Note that the customer is linked to the contact and the origin is set to Phone.
 
-    ![](../images/CovertPhoneCallactivity-1.png)
+    ![](../images/Lab1-Ex2-task2-2.png)
     
     **Result**: You have successfully created the cases in dynamic 365 customer service hub app. 
 
 ### Review
 In this lab, you have completed:
+
 - Create Account, a Contact, and a Case record
 - Create a Phone Call activity and then convert the activity to a Case
 
