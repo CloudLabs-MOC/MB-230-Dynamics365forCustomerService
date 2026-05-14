@@ -5,12 +5,14 @@
 You are a customer service manager at City Power & Light who has been tasked with trying the new Customer Voice functionality to capture feedback on cases before rolling it out to your customers.
 
 ## Lab objectives
+
 In this lab, you will perform:
+
 + Exercise 1: Create survey
 + Exercise 2: Send survey
 
-## Estimated time: 30 minutes
-  
+## Estimated time: 20 minutes
+
 ## Exercise 1: Create survey
 
 In this exercise, you will create a project and use a template to create a survey.
@@ -20,22 +22,24 @@ In this exercise, you will create a project and use a template to create a surve
 1.  Navigate to <https://customervoice.microsoft.com>
 
 1. If not Sign-in, then on the **Sign into Microsoft Azure** tab you will see the login screen, in that enter following **Email/Username** and then click on **Next**. 
-   * Email/Username: <inject key="AzureAdUserEmail"></inject>
+
+   - Email/Username: <inject key="AzureAdUserEmail"></inject>
    
     ![](../images/azure-login.png)
     
 1. Now enter the following **Password** and click on **Sign in**.
-   * Password: <inject key="AzureAdUserPassword"></inject>
+
+   - Password: <inject key="AzureAdUserPassword"></inject>
 
 1. If you see the pop-up **Action Required** page, select **Ask Later**.
 
-1.  Click **+ New project**.
+1. Select **All projects (1)** and click on **New project (2)**.
 
-1.  Select the **Support** template from the list.
+    ![](../images/Lab7-task1-1.png)
 
-    ![](../images/template.png)
+1. Select the **Support (1)** template from the list. Click **Next (2)** to get Survey location page.
 
-1.  Click **Next** to get Survey location page.
+    ![](../images/Lab7-task1-2.png)
 
 1. Select **See all environments** from the recent locations.
 
@@ -45,7 +49,9 @@ In this exercise, you will create a project and use a template to create a surve
 
     ![](../images/resolution-30.png)
 
-1.  Click **Create**.
+1.  Make sure **Prod-Env (1)** is selected and click **Create (2)**.
+
+    ![](../images/Lab7-task1-3.png)
 
 1.  Click on **All Projects (1)**
 
@@ -53,7 +59,9 @@ In this exercise, you will create a project and use a template to create a surve
 
     ![](../images/resolution-29.png)
 
-1.  Enter **Case Feedback** and click on **Rename**.
+1.  Enter **Case Feedback (1)** and click on **Rename (2)**.
+
+    ![](../images/Lab7-task1-4.png)
 
 ### Task 2: Customize survey
 
@@ -88,6 +96,8 @@ In this exercise, you will create a project and use a template to create a surve
     ![](../images/resolution-22.png)
 
 10. Expand **Customization** and select **Personalization**.
+
+    ![](../images/Lab7-task1-5.png)
 
 11. Click + **Add variable (1)** and enter **casereference (2)** with default value **Your support case (3)**.
 
@@ -205,73 +215,12 @@ In this exercise, you will create an email template and send the survey by email
 
      ![](../images/sendmail.png)
 
-## Exercise 3: Send survey when a case is resolved
-
-In this exercise, you will use Power Automate to send a survey when a case is resolved.
-
-### Task 1: Configure automation
-
-1. Navigate to <https://customervoice.microsoft.com>
-
-2. Select your project from the left panel.
-
-3. Click on the **Send** tab.
-
-4. Click on **Resend (1)** and select **Automate (2)**.
-
-   ![](../images/resolution-6.png)
-
-5. Select the **Send a survey when a case is resolved in Dynamics 365** template. You may need to click on **See more templates**.
-
-   ![](../images/newtemplate.png)
-
-6. If the connections require action, click **Fix connection** and sign in when prompted.
-
-7. Click **Continue**.
-
-   ![](../images/continue.png)
-
-8. On **Case resolution survey** page, follow the below instructions:
-
-     - Microsoft Dataverse (legacy) Environment: Enter **Prod-Env**
-     - Dynamics 365 Customer Voice Project: Select **Case Feedback (2)**
-     - Dynamics 365 Customer Voice Survey **How did we do?**
-     - Dynamics 365 Customer Voice Email template **Support Feedback**
-
-      ![](../images/resolution-4.png)
-
-9.  Click **Create**.
-
-     ![](../images/resolution-5.png)
-
-10. Navigate to <https://flow.microsoft.com> this portal.
-
-11. Sign in with your Dynamics 365 tenant credentials.
-
-12. Switch to the **Prod-Env (1)** Dynamics 365 environment.
-
-13. Click on **My flows (2)**
-
-    ![](../images/resolution-3.png)
-
-14. Select the **Send a survey when a case is resolved in Dynamics 365** flow and click **Edit**.
-
-    ![](../images/myflow.png)
-
-15. Expand the steps in the flow and select the **This action sends a survey to a specified list of recipients**.
-
-    ![](../images/resolution-2.png)
-
-16. Clear the **Email template (1)** field and select the **Case Resolution** template you created.
-
-17. Click **Save (2)**.
-
-    ![](../images/resolution-1.png)
-
 **Result:** You have successfully created the survey and Sent survey when a case is resolved. 
 
 ### Review
+
 In this lab, you have completed:
+
 - Create a project and use a template to create a survey
 - Create an email template and send the survey by email.
 - Use Power Automate to send a survey when a case is resolved.

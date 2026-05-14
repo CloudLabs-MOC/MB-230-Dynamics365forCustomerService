@@ -32,7 +32,7 @@ In this task, you will create an internal Knowledge Article for missing parts.
 
    ![](../images/knowledge-02.png)
 
-1. Go to the **Content (1)** area and make sure you have the **Designer (2)** tab selected.
+1. Scroll down and go to the **Content (1)** area and make sure you have the **Designer (2)** tab selected.
 
 1. Type **Purpose & Scope (3)**.
 
@@ -42,7 +42,11 @@ In this task, you will create an internal Knowledge Article for missing parts.
 
 1. Hit the **Enter** key to start a new line. The **Format Selector** should change back to **Normal**.
 
-1. Type the paragraph below. Use the procedure below to resolve Phone call cases that are related to missing parts.  (1)
+1. Type the paragraph provided below **(1)**. 
+
+    ```
+    Use the procedure below to resolve Phone call cases that are related to missing parts.  
+    ```
 
 1. Hit the **Enter** key to start a new line.
 
@@ -72,12 +76,6 @@ In this task, you will create an internal Knowledge Article for missing parts.
 1. Select **Maintenance** for **Article Subject (2)**, check the **Mark for Review (3)** checkbox, and click **Next Stage (4)**.
 
     ![](../images/Knowledge-management-2.png)
-    
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-> - Select the **Lab Validation** tab located at the upper right corner of the lab guide section.
-> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### Task 2 – Approve and Publish Knowledge Article
 
@@ -134,24 +132,18 @@ Article.
 
     ![](../images/knowledge-08.png)
 
-1. Select **Now** from the drop down and click **Publish** again.
+1. Select **Now** from the drop-down and click **Publish** again.
 
 1. Click on **Knowledge Articles** in the **Knowledge** section.
 
-1. You should find the new version of the **Missing Parts (2)** article in the **My Active Articles (1)** view but not the old version.
+1. You should find the new version of the **Missing Parts** article in the **My Active Articles** view but not the old version.
 
-    ![](../images/Knowledge-management-80.png)
+    ![](../images/Lab6-task3-1.png)
 
-1. Change the view to **Archived Articles**. You should find the old version of the **Missing Parts** article in this view.
+1. Change the view to **Archived Articles (1)**. You should find the old version of the **Missing Parts (2)** article in this view.
 
-    ![](../images/Knowledge-management-90.png)
+    ![](../images/Lab6-task3-2.png)
     
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-> - Select the **Lab Validation** tab located at the upper right corner of the lab guide section.
-> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
-
 **Result:** You have successfully created the Knowledge Management and approved and publish knowledge articles in Dynamic 365 customer services. 
 
 ### Review
@@ -159,4 +151,4 @@ In this lab, you have completed:
 - Create an Internal Article
 - Approve and Publish Knowledge Article and Revise Knowledge Article
   
-### **Proceed with the next Lab.**
+### Proceed with the next Lab.

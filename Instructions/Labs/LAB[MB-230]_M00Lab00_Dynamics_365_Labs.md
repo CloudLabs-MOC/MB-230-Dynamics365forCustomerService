@@ -13,11 +13,13 @@ In this practice lab, you will validate and set up your tenant.
 1. Navigate to access <https://admin.powerplatform.microsoft.com> 
 
 1. If not Sign-in, then on the **Sign into Microsoft Azure** tab you will see the login screen, in that enter following **Email/Username** and then click on **Next**. 
+
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
    
     ![](https://github.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/raw/main/media/M2-Ex1-portalsignin-1.png?raw=true)
     
 1. Now enter the following **Password** and click on **Sign in**.
+
    * Password: <inject key="AzureAdUserPassword"></inject>
 
     ![](https://github.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/blob/main/media/M2-Ex1-portalsignin-2.png?raw=true)
@@ -66,11 +68,6 @@ In this practice lab, you will validate and set up your tenant.
    
    >**Note**: Wait for the Environment to get **ready** before you continue with this lab.   
    
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
-> - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
-> - In case if you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
-   
 ### Task 3 - Installing Dynamic 365 Service Scheduling.
 
 1. On the Power Platform admin center, select the **Prod-Env** environment.
@@ -117,7 +114,7 @@ In this practice lab, you will validate and set up your tenant.
 
 > **Note:** If the **Customer Service Hub** app doesn't appear in the list, follow below steps:
 
-1. Copy and paste this link to navigate to Power apps page.
+1. Copy and paste this link to navigate to **Power apps** page.
 
     ```
     https://make.powerapps.com/

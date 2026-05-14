@@ -5,7 +5,9 @@
 You are the scheduling manager at City Power & Light who has been tasked with setting up the new Service Scheduling functionality to perform services for customers at three of your locations.
 
 ## Lab objectives
+
 In this lab, you will perform:
+
 + Exercise 1: Configure Customer Service Scheduling
 + Exercise 2: Resource Configuration
 
@@ -21,9 +23,9 @@ In this task, you will define three organizational units to act as service locat
 
 1. Open the **Dynamics 365 - Customer Service Hub** app.
 
-2. Click **Settings (1)** and select **Personalization Settings (2)**.
+2. Click **Settings** and select **Personalization Settings**.
 
-   ![](../images/Personalization-Settings-0.png)
+   ![](../images/Lab8-task1-1.png)
 
 3. Select your **Time Zone** and click **OK**.
 
@@ -31,7 +33,9 @@ In this task, you will define three organizational units to act as service locat
 
 4. Click on **Home** at the top of the left-hand side navigation.
 
-5. Click on **Service** at the bottom of the **Site Map** in the left-hand navigation and select **Scheduling**.
+5. Click on **Service (1)** at the bottom of the **Site Map** in the left-hand navigation and select **Scheduling (2)**.
+
+   ![](../images/Lab8-task1-2.png)
 
 6. Click on (hierarchy icon) **Organization Units** in the **Settings** section.
 
@@ -44,6 +48,8 @@ In this task, you will define three organizational units to act as service locat
    ![](../images/Personalization-Settings-002.png)
     
 9. In the **Scheduling** tab enter a valid number for both Latitude and Longitude (Example: Latitude- 40, Longitude- 40). Click **Save and Close**.
+
+   ![](../images/Lab8-task1-3.png)
 
 10. Create two more **Sites** by following steps 7 to 9 with the name listed in the table below.
 
@@ -86,9 +92,9 @@ In this task, you will create facilities/equipment records for the organizationa
 
    ![](../images/Personalization-Settings-029.png)
 
-4. Select the **Work Hours** tab, click on one of the events listed on the calendar, click **Edit (1)**, and select **All events in the series (2)**.
+4. Select the **Work Hours (1)** tab, click on one of the events listed on the calendar, click **Edit (2)**, and select **All events in the series (3)**.
 
-   ![](../images/Personalization-Settings-008.png)
+   ![](../images/Lab8-task3-1.png)
 
 5. Select **08:00 AM to 08:00 PM**, remove **Saturday** and **Sunday**, and click **Remove end date**, if there is an end date selected.
 
@@ -127,12 +133,6 @@ In this task, you will create facilities/equipment records for the organizationa
 16. You should now have total of 9 Facilities/Equipment records.
 
     ![](../images/Personalization-Settings-011.png)
-    
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-> - Select the **Lab Validation** tab located at the upper right corner of the lab guide section.
-> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ## Exercise 2: Resource Configuration
 
@@ -152,9 +152,9 @@ In this task you will create new contact records.
 
    ![](../images/cases-2.png)
 
-5. Enter **Mike** for **First Name**, **Smith** for **Last Name**, and click **Save and Close**.
+5. Enter **Mike (1)** for **First Name**, **Smith (2)** for **Last Name**, and click **Save and Close (3)**.
 
-   ![](../images/Personalization-Settings-013.png)
+   ![](../images/Lab8-ex2-task1-1.png)
 
 6. Repeat the previous two steps and create the **Contact** records listed in the table below.
 
@@ -199,12 +199,6 @@ In this task you will create new resource categories.
    ![](../images/Personalization-Settings-016.png)
 
 9. Do NOT navigate away from this application.
-
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-> - Select the **Lab Validation** tab located at the upper right corner of the lab guide section.
-> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ## Task 3: Create Resources
 
@@ -289,17 +283,11 @@ In this task you will create resources using the contacts you created.
 19. You should now have 15 Resources.
 
     ![](../images/PersonalizationSetting.png)
-    
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-> - Select the **Lab Validation** tab located at the upper right corner of the lab guide section.
-> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
-
-**Result:** You have successfully Configured Customer Service Scheduling and Resource Configuration in this lab. 
 
 ### Review
+
 In this lab, you have completed:
+
 - Define Organization Units
 - Define Business Closure
 - create facilities/equipment records for the organizational units

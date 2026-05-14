@@ -1,11 +1,13 @@
-# Lab 09 – Customer Service Scheduling Services
+# Lab 09 – Define Services
 
 ## Lab scenario
 
 You are the scheduling manager at City Power & Light who has been tasked with testing the Service Scheduling functionality to perform services for customers at your locations.
 
 ## Lab objectives
+
 In this lab, you will perform:
+
 + Exercise 1: Define Services
 + Exercise 2: Create and schedule Service activities 
 
@@ -51,11 +53,11 @@ In this task, you will create an oil change service.
 
 13. Select oil change and click **+ Requirement** from command bar.
 
-14. Enter **Service Bay (1)** for **Name**, select **Service Bay Facility (2)** for **Resource Category**
+14. Enter **Service Bay (1)** for **Name**, select **Service Bay Facility (2)** for **Resource Category**.
 
     ![](../images/oil-4.png)
 
-15. Click **Save**
+15. Click **Save**.
 
 ### Task 2: Create Tire Service
 
@@ -65,7 +67,9 @@ In this task, you will create an oil change service.
 
    ![](../images/oil-5.png)
 
-3. Select the **Resource Requirements** tab, change the **Name** to **Tire Rotation**, select **All** for **Select**, and select **Organizational Unit** for **Part of Same**.
+3. Select the **Resource Requirements (1)** tab, change the **Name** to **Tire Rotation (2)**, select **All (3)** for **Select**, and select **Organizational Unit (4)** for **Part of Same**.
+
+    ![](../images/Lab9-task2-1.png)
 
 4. Click **+ Requirement**.
 
@@ -88,12 +92,8 @@ In this task, you will create an oil change service.
 13. The **Tire Rotation** service should now have **4** requirements.
 
     ![](../images/oil-6.png)
-    
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-> - Select the **Lab Validation** tab located at the upper right corner of the lab guide section.
-> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+1. Click **Save**.
 
 ## Exercise 2: Create and schedule Service activities 
 
@@ -107,13 +107,13 @@ In this task you will create and schedule an oil change service activity.
 
 2. Click on **Home** at the top of the left-hand side navigation.
 
-3. Click on **Service** at the bottom of the **Site Map** in the left-hand navigation and select **Scheduling (1)**.
+3. Click on **Service (1)** at the bottom of the **Site Map** in the left-hand navigation and select **Scheduling (2)**.
 
-4. Click on **Service Activities (2)** in the **Scheduling** section.
+    ![](../images/Lab8-task1-2.png)
 
-5. Click **Service Activity (3)** from the command bar.
+4. Click on **Service Activities (1)** in the **Scheduling** section and click on **Service Activity (2)** from the command bar.
 
-   ![](../images/oil-7.png)
+   ![](../images/Lab9-ex2-task1-1.png)
 
 6. Enter **Oil Change Service (1)** for **Subject**, select **Oil Change (2)** for **Service**, select **Main Ave Location (3)** for **Organizational Unit**, and click **Save**.
     
@@ -131,7 +131,7 @@ In this task you will create and schedule an oil change service activity.
 
 10. In our case Service Bay 1 and **Jennifer Leary (1)** will be included.
 
-11 Click on the Team date from the list.
+11. Click on the Team date from the list.
 
 12. Select a **date one week from today(Do not select weekend date) (2)**. The rest of the dates will change to reflect the change you made.
 
@@ -163,16 +163,12 @@ In this task you will create and schedule an oil change service activity.
 
 22. Go to the Details pane. You should see more information about the booking.
 
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-> - Select the **Lab Validation** tab located at the upper right corner of the lab guide section.
-> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
-
 **Result:** You have successfully created Customer Service Scheduling Services in this lab.
 
 ### Review
+
 In this lab, you have completed:
+
 - Create Oil Change Service
 - Create Tire Service
 - Define Business Closure
