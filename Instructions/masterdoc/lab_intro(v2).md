@@ -19,7 +19,7 @@ To get a better understanding of your lab resources and credentials, navigate to
  
    ![Access Your VM and Lab Guide](../images/1.png)
  
-## **Lab Duration Extension**
+## Lab Duration Extension
 
 1. To extend the duration of the lab, kindly click the **Hourglass** icon in the top right corner of the lab environment. 
 
@@ -39,5 +39,29 @@ For convenience, you can open the lab guide in a separate window by selecting th
  
    ![Access Your VM and Lab Guide](../images/8.png)
 
-Now you're all set to explore the powerful world of technology. Feel free to reach out if you have any questions along the way. Enjoy your workshop!
+## Managing Your Virtual Machine
 
+Feel free to **Start, Restart, or Stop (2)** your virtual machine as needed from the **Resources (1)** tab. Your experience is in your hands!
+
+   ![](../images/resources-vm-manage.png)
+
+## Lab Guide Zoom In/Zoom Out
+
+To adjust the zoom level for the environment page, click the **A↕ : 100%** icon located next to the timer in the lab environment.
+
+   ![](../images/zoomin-zoomout.png)
+
+## Support Contact
+
+The CloudLabs support team is available 24/7, 365 days a year, via email and live chat to ensure seamless assistance at any time. We offer dedicated support channels tailored specifically for both learners and instructors, ensuring that all your needs are promptly and efficiently addressed.
+
+Learner Support Contacts:
+
+   - Email Support: cloudlabs-support@spektrasystems.com
+   - Live Chat Support: https://cloudlabs.ai/labs-support
+
+Click **Next** from the bottom right corner to embark on your Lab journey!
+
+![](../images/next-page-2.png)
+
+Now you're all set to explore the powerful world of technology. Feel free to reach out if you have any questions along the way. Enjoy your workshop!

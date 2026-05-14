@@ -1,4 +1,4 @@
-# Lab 0 – Agent experience profiles
+# Lab 08 – Agent experience profiles
 
 ## Scenario
 

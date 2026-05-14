@@ -1,4 +1,4 @@
-# Lab 10 – Customer Service workspace
+# Lab 07 – Customer Service workspace
 
 ## Lab scenario
 

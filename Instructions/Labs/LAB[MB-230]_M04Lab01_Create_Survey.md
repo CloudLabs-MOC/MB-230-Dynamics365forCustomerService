@@ -1,4 +1,4 @@
-# Lab 07 – Customer Voice
+# Lab 12 – Customer Voice
 
 ## Lab scenario
 
@@ -225,4 +225,4 @@ In this lab, you have completed:
 - Create an email template and send the survey by email.
 - Use Power Automate to send a survey when a case is resolved.
 
-### Proceed with the next Lab.
+### You have successfully completed the lab

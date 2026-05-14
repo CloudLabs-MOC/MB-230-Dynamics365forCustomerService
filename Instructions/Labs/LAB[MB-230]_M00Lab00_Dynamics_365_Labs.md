@@ -10,19 +10,19 @@ In this practice lab, you will validate and set up your tenant.
 
 ### Task 1 – Log into the Power Platform admin center
 
-1. Navigate to access <https://admin.powerplatform.microsoft.com> 
+1. On your virtual machine, navigate to this link <https://admin.powerplatform.microsoft.com> 
 
-1. If not Sign-in, then on the **Sign into Microsoft Azure** tab you will see the login screen, in that enter following **Email/Username** and then click on **Next**. 
+1. You'll see the **Sign in** tab. Here, enter your credentials and click on **Next**: 
 
-   * Email/Username: <inject key="AzureAdUserEmail"></inject>
+   - **Email/Username**: <inject key="AzureAdUserEmail"></inject>
    
-    ![](https://github.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/raw/main/media/M2-Ex1-portalsignin-1.png?raw=true)
+    ![](../images/sign-in-page.png)
     
-1. Now enter the following **Password** and click on **Sign in**.
+1. Next, provide your **password** and click on **Sign in**:
 
-   * Password: <inject key="AzureAdUserPassword"></inject>
+   - **Temporary Access Pass**: <inject key="AzureAdUserPassword"></inject>
 
-    ![](https://github.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/blob/main/media/M2-Ex1-portalsignin-2.png?raw=true)
+    ![](../images/tap-password.png)
 
 1. If you see the pop-up **Stay Signed in?**, click No.
 
