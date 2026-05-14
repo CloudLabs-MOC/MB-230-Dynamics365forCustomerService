@@ -1,4 +1,4 @@
-# Lab 12 – Customer Voice
+# Lab 11 – Customer Voice
 
 ## Lab scenario
 

@@ -112,7 +112,7 @@ In this practice lab, you will validate and set up your tenant.
 
 1. You should now be showing the **Dashboard** view.
 
-> **Note:** If the **Customer Service Hub** app doesn't appear in the list, follow below steps:
+**IMPORTANT:** If the **Customer Service Hub** app doesn't appear in the apps list, follow below steps:
 
 1. Copy and paste this link to navigate to **Power apps** page.
 

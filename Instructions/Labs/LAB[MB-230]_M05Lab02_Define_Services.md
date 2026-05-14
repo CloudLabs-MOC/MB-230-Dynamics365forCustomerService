@@ -1,4 +1,4 @@
-# Lab 11 – Define Services
+# Lab 10 – Define Services
 
 ## Lab scenario
 
