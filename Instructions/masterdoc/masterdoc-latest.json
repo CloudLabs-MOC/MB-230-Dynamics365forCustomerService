@@ -5,7 +5,7 @@
     "BaseURL": "https://github.com/MicrosoftLearning/MB-230-Dynamics365forCustomerService",
     "Files": [
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MB-230-Dynamics365forCustomerService/prod/Instructions/masterdoc/combined_gettingstarted_page.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MB-230-Dynamics365forCustomerService/refs/heads/prod/Instructions/masterdoc/combined_getting%20started_page.md",
         "Order": 1
       },
       {
